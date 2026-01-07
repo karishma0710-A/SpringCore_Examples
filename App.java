@@ -1,16 +1,18 @@
-package com.Spring_IOC;
+package com.Annotaions;
 
-public class App {
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App 
+{
     public static void main( String[] args )
-   
     {
-    	//Load Spring XML Configuration
-       ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
+       ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
        
-       //Get the welcome bean from Spring container
-       Cn_Flight obj = (Cn_Flight)context.getBean("welcome");
+       StudentService service = context.getBean(StudentService.class);
        
-       //Display the injected message
-       System.out.println(obj.getMessage());
+       service.displayStudent();
+       
+       
     }
 }
