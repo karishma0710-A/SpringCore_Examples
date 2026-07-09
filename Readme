@@ -1,1 +1,104 @@
-Readme
+# 🌱 Spring Boot & Spring Core Examples
+
+This repository contains practice programs and examples demonstrating the fundamentals of **Spring Core** and **Spring Boot**. It includes examples of dependency injection, annotations, configuration, repository/service layers, Java Streams, and REST API development.
+
+---
+
+## 📌 Topics Covered
+
+- ✅ Spring Core
+- ✅ Spring Boot Basics
+- ✅ Dependency Injection (DI)
+- ✅ Spring Annotations
+- ✅ Java Configuration
+- ✅ Repository & Service Layer
+- ✅ Java Stream API
+- ✅ REST API Basics
+- ✅ Postman API Testing
+
+---
+
+## 📂 Project Structure
+
+```
+├── App.java
+├── AppConfig.java
+├── AppTest.java
+├── StudentRepository.java
+├── StudentService.java
+├── StreamBasics.java
+├── StreamFunctions.java
+├── StreamFunctionsDemo.java
+├── StreamApiDemo.java
+├── Cn_Flight.java
+└── SpringBoot with PostMan Code Example.zip
+```
+
+---
+
+## 🛠 Technologies Used
+
+- Java
+- Spring Core
+- Spring Boot
+- Maven
+- Eclipse IDE
+- Postman
+
+---
+
+## 🚀 Features
+
+- Spring Annotation Configuration
+- Java-based Configuration
+- Dependency Injection
+- Service and Repository Layer Examples
+- Stream API Programs
+- REST API Example with Postman
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository.
+2. Open the project in Eclipse or IntelliJ IDEA.
+3. Configure Maven dependencies (if applicable).
+4. Run the desired Java class.
+5. Use Postman to test REST APIs included in the project.
+
+---
+
+## 📚 Learning Objectives
+
+This repository was created to practice:
+
+- Spring Framework Fundamentals
+- Spring Boot Development
+- Java Stream API
+- Layered Architecture
+- RESTful Web Services
+
+---
+
+## 📌 Future Improvements
+
+- Add Spring Data JPA examples
+- Connect with MySQL Database
+- Exception Handling
+- Validation
+- Spring Security
+- Swagger/OpenAPI Documentation
+
+---
+
+## 👩‍💻 Author
+
+**Karishma A**
+
+B.Tech Information Technology (2026)
+
+Aspiring Java Full Stack Developer
+
+---
+
+⭐ If you found this repository useful, consider giving it a star!
